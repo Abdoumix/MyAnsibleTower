@@ -1,5 +1,5 @@
-- name: copy file
-  hosts: all
-  tasks:
-    - name: Hello Message
+  hosts: localhost
+  user: root
+  tasks:  
+    - name: copyfile
       copy: src=/tmp/sources/first/file1 /tmp.sources/second
