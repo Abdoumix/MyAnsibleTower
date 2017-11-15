@@ -2,5 +2,4 @@
   hosts: all
   tasks:
     - name: Hello Message
-      debug:
-        msg: "Hello World!"
+      copy: src=/tmp/sources/first/file1 dest=/tmp/sources/second/file2
