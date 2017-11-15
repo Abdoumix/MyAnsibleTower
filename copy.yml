@@ -1,4 +1,4 @@
-  hosts: localhost
+  hosts: AnsibleTower.qdslab.local
   user: root
   tasks:  
     - name: copyfile
