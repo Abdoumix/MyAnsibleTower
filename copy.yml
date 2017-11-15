@@ -1,4 +1,6 @@
-hosts: AnsibleTower.qdslab.local
-tasks:  
-  - name: copyfile
-    copy: src=/tmp/sources/first/file1 /tmp.sources/second
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
