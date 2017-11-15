@@ -1,4 +1,4 @@
-  hosts: AnsibleTower.qdslab.local
-  tasks:  
-    - name: copyfile
-      copy: src=/tmp/sources/first/file1 /tmp.sources/second
+hosts: AnsibleTower.qdslab.local
+tasks:  
+  - name: copyfile
+    copy: src=/tmp/sources/first/file1 /tmp.sources/second
