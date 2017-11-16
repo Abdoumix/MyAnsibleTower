@@ -2,4 +2,4 @@
   hosts: localhost
   tasks:
     - name: testact
-      command: hostname
+      command: cp /tmp/sources/first/file1 /tmp/sources/second/file3
