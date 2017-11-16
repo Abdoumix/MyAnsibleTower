@@ -1,5 +1,5 @@
 - name: Hello World Sample
-  hosts: all
+  hosts: localhost
   tasks:
     - name: Hello Message
       copy: src=/tmp/sources/first/file1 dest=/tmp/sources/second/file2
