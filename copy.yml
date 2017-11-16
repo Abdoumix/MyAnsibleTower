@@ -2,4 +2,4 @@
   hosts: AnsibleTower.qdslab.local
   tasks:
     - name: testact
-      command: cat /tmp/sources/first/file1
+      command: cp /tmp/sources/first/file1 /tmp/sources/second/file4
