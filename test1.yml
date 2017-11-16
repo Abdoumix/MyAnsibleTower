@@ -1,1 +1,5 @@
-- name
+- name: acttion Sample
+  hosts: centosansible.qdslab.local
+  tasks:
+    - name: testact1
+      command: cp /tmp/qds1/file2 /tmp/qds2/file4
