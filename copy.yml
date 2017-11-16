@@ -1,5 +1,5 @@
 - name: acttion Sample
-  hosts: localhost
+  hosts: AnsibleTower.qdslab.local
   tasks:
     - name: testact
       command: cat /tmp/sources/first/file1
