@@ -1,5 +1,5 @@
-- name: Hello World Sample
+- name: acttion Sample
   hosts: localhost
   tasks:
-    - name: Hello Message
-      copy: src=file1 dest=/tmp/file1
+    - name: testact
+      action: hostname
